@@ -1,0 +1,52 @@
+Dia 2: Rock Paper Scissors
+
+*******************PARTE 1*********************
+
+- muchas rondas
+
+- Rock      Paper       Scissors
+
+Rock > Scissors
+Scissors > Paper
+Paper > Rock
+
+Misma figura = Empate
+
+A   =   Rock     =   X
+B   =   Paper    =   Y
+C   =   Scissors =   Z
+
+
+
+Puntos por figura (PPF):
+    Rock:       1
+    Paper:      2
+    Scissors:   3
+
+Puntos por ganador (PPG):
+    Win:    6
+    Tie:    3
+    Loss:   0
+
+roundScore = PPF + PPG
+
+totalScore += roundScore
+
+
+*******************PARTE 2*********************
+
+A=Rock
+B=Paper
+C=Scissors
+A   =   Rock     =   X
+B   =   Paper    =   Y
+C   =   Scissors =   Z
+
+X=Loss
+Y=Tie
+Z=Win
+
+Rock > Scissors
+Scissors > Paper
+Paper > Rock
+
