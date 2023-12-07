@@ -28,6 +28,7 @@ public class Dia2 {
             Scanner sc = new Scanner(fl);
 
             while (sc.hasNextLine()){
+
                 String linea = sc.nextLine().trim();
                 char opp = linea.charAt(0);
                 char self = linea.charAt(2);
